@@ -1,0 +1,147 @@
+/*.header img{
+    width: 60px;
+}
+.middle {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos dentro de .middle */
+    /*align-items: flex-start; /* Alinea los ítems al inicio verticalmente */
+   /* text-align: center; /* Centra el texto dentro de cada div */
+/*}
+
+.middle div {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+   /* align-items: center; /* Centra los ítems horizontalmente */
+  /*  margin: 0 10px; /* Opcional: espacio entre cada bloque */
+/*}
+
+.middle img {
+    width: 50px; /* Ajusta el tamaño del ícono */
+   /* height: 50px; /* Ajusta el tamaño del ícono */
+   /* margin-bottom: 8px; /* Espacio entre la imagen y el heading */
+/*}
+
+.middle h4 {
+    margin: 0;
+    margin-bottom: 5px; /* Espacio entre el heading y el párrafo */
+/*}
+
+.middle p {
+    margin: 0;
+}
+
+.left{
+    max-width: fit-content;
+    background-repeat: no repeat;
+    max-height: 800px
+}
+.left,.header,.middle{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+/* Flexbox for container */
+/*.container {
+    display: flex;
+    flex-direction: row; /* Arrange left and middle sections side by side */
+    /*justify-content: space-between; /* Space out the sections */
+/*}
+
+/* Left section */
+/*.left {
+    flex: 1; /* Take up equal space with the middle section */
+  /*  background-size: cover; /* Make the background image cover the entire section */
+  /*  background-position: center; /* Center the background image */
+  /*  padding: 20px; /* Add some padding for content inside the left section */
+/*}
+
+/* Header section */
+/*.header {
+    flex: 2; /* Make the header take up more space compared to the left section */
+    /*display: flex;
+   /* flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    /*text-align: center; /* Center the text */
+  /*  padding: 20px;
+}
+
+/* Middle section */
+/*.middle {
+    flex: 1; /* Take up equal space with the left section */
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Distribute content evenly */
+  /*  padding: 20px;
+}*/
+/* General Flexbox settings */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Left section */
+.left {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end; /* Position the text at the bottom */
+    padding: 20px;
+    max-width: fit-content;
+    max-height: 800px;
+}
+
+/* Header section */
+.header {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Middle section */
+.middle {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; /* Adds space between header and middle */
+}
+
+/* Flexbox within the middle section */
+.middle div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.middle img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.middle h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.middle p {
+    margin: 0;
+}
+
+/* Image size in the header */
+.header img {
+    width: 60px;
+}
