@@ -1,0 +1,43 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+    
+}
+/*Top part texts*/
+.superior{
+    padding: 5px;
+    margin-left: 30px;
+    align-items: center;
+    width: fit-content;
+    line-height: 5px;
+
+}
+.superior p{
+   font-size: 15px;
+   font-family:Calibri;
+   
+   
+}
+/*Next-section*/
+.middle{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ticket1{
+    display: flex;
+}
+.date1{
+    padding: 2px;
+    line-height: 1px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color:rgba(240, 128, 128, 0.493);
+    opacity: .80;
+    width: fit-content;
+    height: 60px;
+    
+}
